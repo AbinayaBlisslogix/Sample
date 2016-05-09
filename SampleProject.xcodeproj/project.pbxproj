@@ -26,14 +26,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FDF7795F1B539E4B009EFDB5 /* Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDF7795F1B539E4B009EFDB5 /* SampleProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDF779631B539E4B009EFDB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDF779641B539E4B009EFDB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FDF779661B539E4B009EFDB5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FDF779691B539E4B009EFDB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FDF7796B1B539E4B009EFDB5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FDF7796E1B539E4B009EFDB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		FDF779741B539E4B009EFDB5 /* SampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDF779741B539E4B009EFDB5 /* SampleProject.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleProject.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDF779791B539E4B009EFDB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDF7797A1B539E4B009EFDB5 /* SampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -68,8 +68,8 @@
 		FDF779601B539E4B009EFDB5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FDF7795F1B539E4B009EFDB5 /* Sample.app */,
-				FDF779741B539E4B009EFDB5 /* SampleTests.xctest */,
+				FDF7795F1B539E4B009EFDB5 /* SampleProject.app */,
+				FDF779741B539E4B009EFDB5 /* SampleProject.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -115,9 +115,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FDF7795E1B539E4B009EFDB5 /* Sample */ = {
+		FDF7795E1B539E4B009EFDB5 /* SampleProject */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FDF7797E1B539E4B009EFDB5 /* Build configuration list for PBXNativeTarget "Sample" */;
+			buildConfigurationList = FDF7797E1B539E4B009EFDB5 /* Build configuration list for PBXNativeTarget "SampleProject" */;
 			buildPhases = (
 				FDF7795B1B539E4B009EFDB5 /* Sources */,
 				FDF7795C1B539E4B009EFDB5 /* Frameworks */,
@@ -127,14 +127,14 @@
 			);
 			dependencies = (
 			);
-			name = Sample;
+			name = SampleProject;
 			productName = Sample;
-			productReference = FDF7795F1B539E4B009EFDB5 /* Sample.app */;
+			productReference = FDF7795F1B539E4B009EFDB5 /* SampleProject.app */;
 			productType = "com.apple.product-type.application";
 		};
-		FDF779731B539E4B009EFDB5 /* SampleTests */ = {
+		FDF779731B539E4B009EFDB5 /* SampleProjectTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FDF779811B539E4B009EFDB5 /* Build configuration list for PBXNativeTarget "SampleTests" */;
+			buildConfigurationList = FDF779811B539E4B009EFDB5 /* Build configuration list for PBXNativeTarget "SampleProjectTests" */;
 			buildPhases = (
 				FDF779701B539E4B009EFDB5 /* Sources */,
 				FDF779711B539E4B009EFDB5 /* Frameworks */,
@@ -145,9 +145,9 @@
 			dependencies = (
 				FDF779761B539E4B009EFDB5 /* PBXTargetDependency */,
 			);
-			name = SampleTests;
+			name = SampleProjectTests;
 			productName = SampleTests;
-			productReference = FDF779741B539E4B009EFDB5 /* SampleTests.xctest */;
+			productReference = FDF779741B539E4B009EFDB5 /* SampleProject.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -156,6 +156,7 @@
 		FDF779571B539E4A009EFDB5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = karthikps;
 				TargetAttributes = {
@@ -168,7 +169,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FDF7795A1B539E4A009EFDB5 /* Build configuration list for PBXProject "Sample" */;
+			buildConfigurationList = FDF7795A1B539E4A009EFDB5 /* Build configuration list for PBXProject "SampleProject" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -181,8 +182,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FDF7795E1B539E4B009EFDB5 /* Sample */,
-				FDF779731B539E4B009EFDB5 /* SampleTests */,
+				FDF7795E1B539E4B009EFDB5 /* SampleProject */,
+				FDF779731B539E4B009EFDB5 /* SampleProjectTests */,
 			);
 		};
 /* End PBXProject section */
@@ -230,7 +231,7 @@
 /* Begin PBXTargetDependency section */
 		FDF779761B539E4B009EFDB5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FDF7795E1B539E4B009EFDB5 /* Sample */;
+			target = FDF7795E1B539E4B009EFDB5 /* SampleProject */;
 			targetProxy = FDF779751B539E4B009EFDB5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -340,7 +341,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Sample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SampleProject;
 			};
 			name = Debug;
 		};
@@ -350,7 +351,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Sample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SampleProject;
 			};
 			name = Release;
 		};
@@ -368,8 +369,8 @@
 				);
 				INFOPLIST_FILE = SampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sample.app/Sample";
+				PRODUCT_NAME = SampleProject;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SampleProject.app/SampleProject";
 			};
 			name = Debug;
 		};
@@ -383,15 +384,15 @@
 				);
 				INFOPLIST_FILE = SampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sample.app/Sample";
+				PRODUCT_NAME = SampleProject;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SampleProject.app/SampleProject";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FDF7795A1B539E4A009EFDB5 /* Build configuration list for PBXProject "Sample" */ = {
+		FDF7795A1B539E4A009EFDB5 /* Build configuration list for PBXProject "SampleProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FDF7797C1B539E4B009EFDB5 /* Debug */,
@@ -400,21 +401,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FDF7797E1B539E4B009EFDB5 /* Build configuration list for PBXNativeTarget "Sample" */ = {
+		FDF7797E1B539E4B009EFDB5 /* Build configuration list for PBXNativeTarget "SampleProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FDF7797F1B539E4B009EFDB5 /* Debug */,
 				FDF779801B539E4B009EFDB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		FDF779811B539E4B009EFDB5 /* Build configuration list for PBXNativeTarget "SampleTests" */ = {
+		FDF779811B539E4B009EFDB5 /* Build configuration list for PBXNativeTarget "SampleProjectTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FDF779821B539E4B009EFDB5 /* Debug */,
 				FDF779831B539E4B009EFDB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
